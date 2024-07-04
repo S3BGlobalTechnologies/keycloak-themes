@@ -13,7 +13,7 @@ ${msg("loginTitle",(realm.displayName!''))}
 <div style="text-align:center;">
    <img  src="${url.resourcesPath}/img/logo.png" alt="logo" style="height:60px;">
 </div>
-<h2 class="title" style="text-align:center;">Login</h2>
+<h2 class="title" style="text-align:center;">Access your free account on AwokenIn</h2>
 <form id="kc-form-login" class="form form1" return true;" action="${url.loginAction}" method="post">
    <div class="input-group">
       <label>Email Id*</label>
