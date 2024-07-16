@@ -521,7 +521,7 @@ input {
     display: block;
   }
   .card-3 .card-heading {
-    display: block;
+    display: inline;
     width: 100%;
     padding-top: 400px;
     background-position: center center;
