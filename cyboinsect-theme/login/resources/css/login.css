@@ -189,6 +189,12 @@ h6 {
   padding-top: 100px;
 }
 
+@media (max-width: 767px) {
+.p-t-100 {
+  padding-top: 0px;
+}
+}
+
 .p-t-110 {
   padding-top: 110px;
 }
