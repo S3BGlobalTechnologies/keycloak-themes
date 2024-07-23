@@ -15,7 +15,7 @@
                         <img src="${url.resourcesPath}/img/logo.png" alt="logo" style="height:60px;">
                     </div>
                     <div style="text-align: center;margin-top:20px;margin-bottom: 20px;font-size: 32px;">
-                        <span class="span-text">Access your free account on AwokenIn</span>
+                        <span class="title">Access your free account on AwokenIn</span>
                     </div>
                     <form id="kc-form-login" class="form" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
                         <div class="input-group-register">
