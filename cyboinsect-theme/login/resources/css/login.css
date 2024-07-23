@@ -475,9 +475,10 @@ input {
      #TITLE
      ========================================================================== */
 .title {
-  font-size: 42px;
+  font-size: 18px;
   color: #5c3a58;
   margin: 20px;
+   font-weight: 800;
 /*   font-variant: all-small-caps; */
 }
 
