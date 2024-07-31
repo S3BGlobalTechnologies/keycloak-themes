@@ -20,7 +20,12 @@
 </head>
 
 <body>
-    <div class="page-wrapper bg-gra-01 p-t-100">
+    <nav style="background-color: #f8f9fa; padding: 20px; display: flex; align-items: center; border-bottom: 2px solid #ccc;">
+        <div style="display: flex; align-items: center;">
+            <img src="https://keycloak.awokenin.com/resources/ubqhl/login/cyboinsect-theme/img/logo.png" alt="Logo" style="height: 50px;">
+        </div>
+    </nav>
+    <div class="page-wrapper bg-gra-01" style="50px 0px">
         <div class="wrapper wrapper--w780">
 
             <!-- Modal HTML -->
