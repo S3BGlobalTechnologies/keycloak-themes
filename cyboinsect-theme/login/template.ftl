@@ -27,7 +27,7 @@
             </a>
         </div>
     </nav>
-    <div class="page-wrapper bg-gra-01" style="50px 0px">
+    <div class="page-wrapper bg-gra-01" style="padding:50px 0px">
         <div class="wrapper wrapper--w780">
 
             <!-- Modal HTML -->
