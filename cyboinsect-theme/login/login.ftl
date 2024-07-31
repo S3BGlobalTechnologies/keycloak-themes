@@ -14,7 +14,7 @@ ${msg("loginTitle",(realm.displayName!''))}
    <img  src="${url.resourcesPath}/img/logo.png" alt="logo" style="height:60px;">
 </div>
 <h2 class="title" style="text-align:center;">Access your free account on AwokenIn</h2>
-<div style="margin-top:50px;text-align:center">
+<div style="margin:30px 0px;text-align:center">
    <span style="text-size:16px;">Don't have an account?</span>
    <a href="${url.registrationUrl}" style="color:#e6186d;">Signup</a>
    <div>
