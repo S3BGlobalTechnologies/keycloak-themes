@@ -17,6 +17,11 @@
                     <div style="text-align: center;margin-top:20px;margin-bottom: 20px;font-size: 32px;">
                         <span class="title">Access your free account on AwokenIn</span>
                     </div>
+                    <div style="text-align: center; margin: 30px 0px">
+                        <span style="text-size:16px;">Already have an account?</span>
+                        <a href="${url.loginUrl}" style="color:#e6186d; ">SignIn.</a>
+                        <div></div>
+                    </div>
                     <form id="kc-form-login" class="form" onsubmit="login.disabled = true; return true;" action="${url.loginAction}" method="post">
                         <div class="input-group-register">
                             <label>First Name*</label>
@@ -71,10 +76,6 @@
                     </div>
                 </#list>
             </#if>
-            <div style="text-align: center">
-                <span style="text-size:16px;">Already have an account?</span>
-                <a href="${url.loginUrl}" style="color:#e6186d; ">SignIn.</a>
-                <div></div>
-            </div>
+
         </#if>
     </@layout.registrationLayout>
