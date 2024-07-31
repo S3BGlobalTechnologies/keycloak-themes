@@ -14,6 +14,12 @@ ${msg("loginTitle",(realm.displayName!''))}
    <img  src="${url.resourcesPath}/img/logo.png" alt="logo" style="height:60px;">
 </div>
 <h2 class="title" style="text-align:center;">Access your free account on AwokenIn</h2>
+<div style="margin-top:50px;text-align:center">
+   <span style="text-size:16px;">Don't have an account?</span>
+   <a href="${url.registrationUrl}" style="color:#e6186d;">Signup</a>
+   <div>
+   </div>
+</div>
 <form id="kc-form-login" class="form form1" return true;" action="${url.loginAction}" method="post">
    <div class="input-group">
       <label>Email Id*</label>
@@ -60,11 +66,6 @@ ${msg("loginTitle",(realm.displayName!''))}
    </#list>
 </div>
 </#if>
-<div style="margin-top:50px;text-align:center">
-   <span style="text-size:16px;">Don't have an account?</span>
-   <a href="${url.registrationUrl}" style="color:#e6186d;">Signup</a>
-   <div>
-   </div>
-</div>
+
 </#if>
 </@layout.registrationLayout>
