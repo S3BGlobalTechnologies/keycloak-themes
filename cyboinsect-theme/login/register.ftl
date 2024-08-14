@@ -58,7 +58,9 @@
                         <div class="signup-checkbox" style="text-align:center">
                             <label>
                                 <input id="rememberMe" name="rememberMe" type="checkbox" checked> ${msg("accept")}
-                            </label><a style="color:#e6186d;" href="#">terms and conditions</a>
+                            </label>
+                            &nbsp;
+                            <a style="color:#e6186d;" href="#">terms and conditions</a>
                         </div>
                         <div style="width: 100%; justify-content: center; display: flex;margin: 20px 0px 20px 0px;">
                             <input class="submit" type="submit" value="${msg("doRegister")}" tabindex="3">
