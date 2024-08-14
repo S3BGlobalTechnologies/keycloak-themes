@@ -323,6 +323,9 @@ input {
   margin-bottom: 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+.input-group-fgp {
+   text-align: center;
+}
 .input-group-register {
   position: relative;
   margin-bottom: 10px;
