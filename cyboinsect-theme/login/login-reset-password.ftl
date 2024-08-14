@@ -18,7 +18,7 @@
                <h2>Forgot Password?</h2>
                </div>
                <form id="kc-reset-password-form" class="${properties.kcFormClass!}" action="${url.loginAction}" method="post">
-                    <div class="input-group " style="text-align:center;">                    
+                    <div class="input-group input-group-fgp" style="text-align:center;">                    
                     <label>Enter your email id to which your account is linked.*</label>
                     <input type="text" id="username" name="username" class="input--style-3 input-reset"/>
                     </div>        
