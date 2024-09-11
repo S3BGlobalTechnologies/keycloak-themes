@@ -11,9 +11,11 @@
             </#if>
             <#if realm.password>
                 <div class="card-register">
+                <!-- 
                     <div style="text-align: center;">
                         <img src="${url.resourcesPath}/img/logo.png" alt="logo" style="height:60px;">
                     </div>
+                -->
                     <div style="text-align: center;margin-top:20px;margin-bottom: 20px;font-size: 32px;">
                         <span class="title">Access your free account on AwokenIn</span>
                     </div>
