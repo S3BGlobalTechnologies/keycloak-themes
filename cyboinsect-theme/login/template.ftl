@@ -22,8 +22,8 @@
 <body>
     <nav style="background-color: #f8f9fa; padding: 20px; display: flex; align-items: center; border-bottom: 2px solid #ccc;">
         <div style="display: flex; align-items: center;">
-            <a href="https://test.awokenin.com">
-                <img src="https://keycloak.awokenin.com/resources/ubqhl/login/cyboinsect-theme/img/logo.png" alt="Logo" style="height: 50px;">
+            <a href="https://awokenin.com">
+                <img src="${url.resourcesPath}/img/logo.png" alt="Logo" style="height: 50px;">
             </a>
         </div>
     </nav>
