@@ -10,9 +10,11 @@ ${msg("loginTitle",(realm.displayName!''))}
 <div class="card-heading" style="background: url('${url.resourcesPath}/img/1.jpg') top left/cover no-repeat;"></div>
 <#if realm.password>
 <div class="card-body">
+<!-- 
 <div style="text-align:center;">
-   <img  src="${url.resourcesPath}/img/logo.png" alt="logo" style="height:60px;">
-</div>
+    <img src="/resources/ubqhl/login/cyboinsect-theme/img/logo.png" alt="logo" style="height:60px;">
+ </div> 
+-->
 <h2 class="title" style="text-align:center;">Access your free account on AwokenIn</h2>
 <div style="margin:30px 0px;text-align:center">
    <span style="text-size:16px;">Don't have an account?</span>
