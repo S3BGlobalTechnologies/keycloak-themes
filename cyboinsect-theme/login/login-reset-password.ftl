@@ -11,9 +11,11 @@
         <#if realm.password>
         </#if>
         <#if realm.password>
+        <!--
             <div style="text-align: center;" class="logo">
             <img src="${url.resourcesPath}/img/logo.png" style="height:70px;margin-top:70px;">
                </div>
+        -->
                <div style="text-align: center;margin:30px;">
                <h2>Forgot Password?</h2>
                </div>
