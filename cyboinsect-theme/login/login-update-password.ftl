@@ -10,9 +10,11 @@
 </div>
 <#if realm.password>
 <div class="card-body">
+<!--
 <div style="text-align:center;">
    <img  src="${url.resourcesPath}/img/logo.png" alt="logo" style="height:60px;">
 </div>
+-->
 <h1 class="title" style="text-align:center;">Change Password</h1>
 <form id="kc-reset-password-form" class="${properties.kcFormClass!}" action="${url.loginAction}" method="post">
    <div>
