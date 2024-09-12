@@ -61,7 +61,7 @@
                             <label>
                                 <input id="rememberMe" name="rememberMe" type="checkbox" checked> ${msg("accept")}
                             </label>
-                            <a style="color:#e6186d; margin-left:2px;" href="https://awokenin.com/terms-and-conditions">terms and conditions</a>
+                            <a style="color:#e6186d; margin-left:2px;" href="https://awokenin.com/terms-and-conditions">Terms and Conditions</a>
                         </div>
                         <div style="width: 100%; justify-content: center; display: flex;margin: 20px 0px 20px 0px;">
                             <input class="submit" type="submit" value="${msg("doRegister")}" tabindex="3">
