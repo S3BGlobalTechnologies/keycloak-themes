@@ -11,6 +11,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Montserrat font -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
     <title><#nested "title"></title>
     <#if properties.styles?has_content>
         <#list properties.styles?split(' ') as style>
@@ -27,7 +34,7 @@
             </a>
         </div>
     </nav>
-    <div class="page-wrapper bg-gra-01" style="padding:50px 0px">
+    <div class="page-wrapper bg-gra-01">
         <div class="wrapper wrapper--w780">
 
             <!-- Modal HTML -->

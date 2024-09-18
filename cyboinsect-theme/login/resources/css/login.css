@@ -130,10 +130,18 @@ button {
      ========================================================================== */
 .page-wrapper {
   min-height: 100vh;
+  padding: 50px 0px;
 }
 
+@media (max-width: 767px) {
+  .page-wrapper {
+    padding: 0px;
+  }
+}
+
+
 body {
-  font-family: "Nunito";
+  font-family: "Montserrat";
   font-weight: 400;
   font-size: 14px;
 }
@@ -277,7 +285,7 @@ h6 {
   width: 120px;
   height: 36px;
   border-radius: 10px;
-  background-color: #48c4a1;
+  background-color: #F57C00;
   font-size: 18px;
   font-style: normal;
   text-align: center;
@@ -509,6 +517,18 @@ input {
   width: 100%;
   display: table;
 }
+@media (max-width: 767px) {
+  .card-3 {
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -moz-box-shadow: none;
+     box-shadow: none;
+  }
+  .card{
+    border:none
+  }
+}
+
 
 .card-3 .card-heading {
   /* background-color: #4dae3c; */
